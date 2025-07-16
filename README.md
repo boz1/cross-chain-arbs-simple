@@ -1,5 +1,3 @@
-# Cross‑Chain Arbitrage
-
 ## Description
 
 This repository provides code and data for exploring cross‑chain arbitrage matches exported from Dune, following the methodology described in [Cross‑Chain Arbitrage: The Next Frontier of MEV in Decentralized Finance](https://arxiv.org/abs/2501.17335). We implement a simple pipeline to:
