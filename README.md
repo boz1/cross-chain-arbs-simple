@@ -10,20 +10,6 @@ This repository provides code and data for exploring cross‑chain arbitrage mat
 3. **Deduplicate** overlapping candidate pairs by ranking first on smallest marginal difference, then on shortest time gap.
 4. **Export** the final, deduplicated list of cross‑chain swaps for further analysis.
 
-## Repository Structure
-
-├── data/
-│ ├── raw/ # Raw CSV exports from Dune for three sampled days
-│ └── output/ # Filtered & deduplicated results
-│
-├── figures/ # Plots and figures
-│
-├── notebook.ipynb # Jupyter notebook to analyze results
-│
-├── filter_swaps.py # Script to apply the fixed heuristic
-│
-└── README.md # This file
-
 ## Getting Started
 
 1. **Clone the repo**
