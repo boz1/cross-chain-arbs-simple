@@ -7,6 +7,7 @@ This repository provides code and data for exploring cross‑chain arbitrage mat
    - **Cyclic asset flow** (swap on Chain A → swap back on Chain B)
    - **Marginal‑difference** ≤ 0.5 %
    - **Temporal‑window** ≤ 3600 s
+   - **Entity link**
 3. **Deduplicate** overlapping candidate pairs by ranking first on smallest marginal difference, then on shortest time gap.
 4. **Export** the final, deduplicated list of cross‑chain swaps for further analysis.
 
