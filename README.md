@@ -2,8 +2,8 @@
 
 This repository provides code and data for exploring cross‑chain arbitrage matches exported from Dune, following the methodology described in [Cross‑Chain Arbitrage: The Next Frontier of MEV in Decentralized Finance](https://arxiv.org/abs/2501.17335). We implement a simple pipeline to:
 
-1. **Load & preprocess** raw swap data from multiple chains.
-2. **Filter** candidate swap pairs by:
+1. **Load & preprocess** raw match data from multiple chains.
+2. **Filter** candidate matches by:
    - **Cyclic asset flow** (swap on Chain A → swap back on Chain B)
    - **Marginal‑difference** ≤ 0.5 %
    - **Temporal‑window** ≤ 3600 s
