@@ -4,9 +4,9 @@ This repository provides code and data for exploring cross‑chain arbitrage mat
 
 1. **Load & preprocess** raw match data from multiple chains.
 2. **Filter** candidate matches by:
-   - **Cyclic asset flow** (swap on Chain A → swap back on Chain B)
-   - **Marginal‑difference** ≤ 0.5 %
-   - **Temporal‑window** ≤ 3600 s
+   - **Cyclic asset flow**
+   - **Marginal‑difference**
+   - **Temporal‑window**
    - **Entity link**
 3. **Deduplicate** overlapping candidate pairs by ranking first on smallest marginal difference, then on shortest time gap.
 4. **Export** the final, deduplicated list of cross‑chain swaps for further analysis.
